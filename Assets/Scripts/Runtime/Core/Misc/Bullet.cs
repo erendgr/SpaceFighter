@@ -18,7 +18,8 @@ namespace Runtime.Core.Misc
         private float _speed;
         private float _lifeTime;
         [Inject] private SignalBus _signalBus;
-        private Vector3 _moveDirection
+        
+        public Vector3 _moveDirection
         {
             get { return transform.right; }
         }
